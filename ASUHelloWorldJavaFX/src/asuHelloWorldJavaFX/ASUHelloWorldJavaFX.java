@@ -10,15 +10,16 @@ import javafx.stage.Stage;
  
 public class ASUHelloWorldJavaFX extends Application {
     public static void main(String[] args) {
-        launch(args);
+        launch(args); 
     }
     
     public void start(Stage primaryStage) {
     	System.out.println("ASU Hello World!");
     	System.out.println("It started!");
-        primaryStage.setTitle("ASU Hello World Spring 2024");
+    	System.out.println("SECOND COMMIT!");
+        primaryStage.setTitle("In class GitHub activity");
         Button btn = new Button();
-        btn.setText("Display: 'ASU says: Hello World!'");
+        btn.setText("Rohan's second commit");
         btn.setOnAction(new EventHandler<>() {
             public void handle(ActionEvent event) {
                 System.out.println("ASU: Hello World!");
